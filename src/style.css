@@ -1,0 +1,23 @@
+.el-tabs__item {
+    font-size: 16px;
+    /* font-weight: 700; */
+}
+.el-form-item__label {
+    font-size: 16px;
+    /* font-weight: 600; */
+}
+.el-submenu__title {
+    font-size: 16px;
+    font-weight: 600;
+}
+.el-menu-item {
+    font-size: 16px;
+    /* font-weight: 600; */
+}
+.current-tag {
+    font-size: 20px;
+    ;
+  }
+  .el-dialog__title {
+    font-weight: 600 !important;
+  }
