@@ -121,6 +121,7 @@
     methods: {
       // 保存
       saveStp: function () {
+        console.log("hellp")
         this.calcAll()
         this.dataForm.cas = this.currentElement ? this.currentElement.cas : 1
         this.$confirm("确认提交吗？", "提示", {}).then(() => {
@@ -507,7 +508,6 @@
         if (this.dataForm.fstpTotal > 0.999) this.dataForm.fstpTotal = 1 //大于0.999强制转换成1
       },
       calcSTP2: function () {
-        debugger
         //input
         let Depth_PS = 4
         let HRT_PS = 2
